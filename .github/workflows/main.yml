@@ -54,7 +54,7 @@ jobs:
         path: ./linux
         
     - name: Execute run.sh
-      run: source ./run.sh
+      run: source local/run.sh
 
   download-only-windows:
     runs-on: windows-latest
